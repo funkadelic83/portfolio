@@ -1,0 +1,65 @@
+body {
+    background-color: #700000;
+    background-image: url("../images/full-bloom.png");
+    font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    /* /* margin: 0; */
+    padding: 0;
+    color: #777777;
+    border-color: #666666;
+    align-content: center;
+    float: center;
+
+}
+
+.video-cell {
+    margin: 10px;
+}
+
+.heading {
+    padding-left: 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.bio-image {
+    margin: 0 auto;
+
+}
+
+.main-bio {
+    padding: 5px;
+}
+.container {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 960px;
+    padding: 20px;
+    /* margin: 0 auto; */
+    margin-top: 25px;
+    border-width: 2px;
+            border-style: solid;
+            border-color: #dddddd
+
+}
+
+/* @media only screen and (max-width: 640px) {
+   .container {
+
+
+    max-width: 640px;
+
+}
+  }
+
+
+  @media only screen and (max-width: 360px) {
+    .container {
+ 
+ 
+     max-width: 360px;
+ 
+ }
+   } */
+
