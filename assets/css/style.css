@@ -29,7 +29,8 @@ body {
 
 .bio-image {
     margin: 0 auto;
-    float: left;
+    float: center;
+    margin-bottom: 10px;
 
 }
 
@@ -41,8 +42,8 @@ body {
     background-color: #ffffff;
     width: 100%;
     max-width: 960px;
-    /* padding: 20px; */
-    /* margin: 0 auto; */
+    padding: 20px;
+    margin: 0 auto;
     margin-top: 25px;
     border-width: 2px;
             border-style: solid;
@@ -97,15 +98,5 @@ body {
                 border-color: #dddddd
     
     }
-
-
-    /* body {
-        background-image: url("../images/full-bloom.png");
-        padding: 0;
-        color: #777777;
-        border-color: #666666;
-        align-content: center;
-    
-    } */
     
 }
