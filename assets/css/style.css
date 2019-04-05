@@ -12,11 +12,15 @@ body {
 }
 
 .heading {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 
 .for-mobile {
     display: none;
+}
+
+.non-mobile {
+    display: block;
 }
 
 .bold {
@@ -37,7 +41,7 @@ body {
     background-color: #ffffff;
     width: 100%;
     max-width: 960px;
-    padding: 20px;
+    /* padding: 20px; */
     /* margin: 0 auto; */
     margin-top: 25px;
     border-width: 2px;
@@ -47,7 +51,7 @@ body {
 }
 
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
@@ -60,17 +64,38 @@ body {
 
     .for-mobile {
         display: block;
+        width: 100%;
+        margin: 3px;
     }
 
     .non-mobile {
         display: none;
     }
 
+    .video-cell {
+        margin: 3px;
+       
+    }
+    
+    .heading {
+        padding-left: 7px;
+    }
+     .main-bio {
+        padding: 0px;
+    }
     .container {
-        background-color: red;
         width: 100%;
         max-width: 767px;
         float: left;
+        background-color: #ffffff;
+        padding: 5px;
+        margin: 0 auto;
+        margin-top: 25px;
+        border-width: 0px;
+        border-top: 2px;
+                border-style: solid;
+                border-color: #dddddd
+    
     }
 
 
