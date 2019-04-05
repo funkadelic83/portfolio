@@ -15,6 +15,10 @@ body {
     padding-left: 10px;
 }
 
+.for-mobile {
+    display: none;
+}
+
 .bold {
     font-weight: bold;
 }
@@ -25,7 +29,7 @@ body {
 
 }
 
-.main-bio {
+ .main-bio {
     padding: 5px;
 }
 
@@ -43,17 +47,40 @@ body {
 }
 
 
-@media (max-width: 576px) {
+@media (max-width: 767px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
       float: left;
     }
 
+    .video-cell {
+        width: 100%;
+    }
+
+    .for-mobile {
+        display: block;
+    }
+
+    .non-mobile {
+        display: none;
+    }
+
     .container {
         background-color: red;
         width: 100%;
-    max-width: 5760px;
-    float: left;
+        max-width: 767px;
+        float: left;
     }
+
+
+    /* body {
+        background-image: url("../images/full-bloom.png");
+        padding: 0;
+        color: #777777;
+        border-color: #666666;
+        align-content: center;
+    
+    } */
+    
 }
