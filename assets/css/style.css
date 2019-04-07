@@ -34,6 +34,18 @@ body {
 
 }
 
+.top-padding {
+    margin-top: 5px;
+}
+
+.left-margin-fix {
+    margin-left: 15px;
+}
+
+.right-margin-fix {
+    margin-right: 15px;
+}
+
  .main-bio {
     padding: 5px;
 }
@@ -42,7 +54,7 @@ body {
     background-color: #ffffff;
     width: 100%;
     max-width: 960px;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 0 auto;
     margin-top: 25px;
     border-width: 2px;
@@ -95,8 +107,10 @@ body {
         border-width: 0px;
         border-top: 2px;
                 border-style: solid;
+                border-color: #dddddd;
+        border-bottom: 2px;
+                border-style: solid;
                 border-color: #dddddd
-    
     }
     
 }
